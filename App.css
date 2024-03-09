@@ -1,0 +1,221 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/* navbar */
+.Topbar{
+  background-color: #1e2025;
+  height: 300px;
+}
+.img1{
+  height: 250px;
+  margin-left: 40%;
+  border-radius: 60%;
+}
+.bot{
+  width:300px;
+  height: 50px;
+}
+.botmname{
+  color: #1e2025;
+  font-family:cursive;
+
+}
+.botmname1{
+  color: #5881eb;
+  font-family:cursive;
+  
+}
+
+/* signin */
+.regbox{
+  background-color: #ffffff;
+margin-top: 20%;
+height:220px;
+border-radius: 4px;
+
+}
+.signincontainer{
+  background-color: #1e2025;
+}
+.form-control{
+ margin-left: 25%;
+  width: 300px;
+}
+.reghead{
+  color: #5881eb;
+  font-family:cursive;
+}
+.warning{
+  font-size: small;
+  font-family:cursive;
+}
+/* chthome */
+.chat-logo{
+  height: 120px;
+margin-left: 5%;
+}
+.chat-head{
+ 
+  color: #5881eb;
+  font-family:cursive;
+  margin-left: 20%;
+  
+}
+.navlogout{
+  font-family:cursive;
+  margin-left: 30%;
+  
+}
+.chat-logo2{
+  height: 120px;
+margin-left: 15%;
+}
+.me-2{
+ 
+  margin-left: 1%;
+
+}
+.bodychat2{
+  margin-top: 1%;
+  margin-left: 2%;
+ width: 400px;
+ height: 600px;
+ border: 2px solid#1e2025;
+  background-color: #ffffff;
+  color: #5881eb;
+  border-radius: 6px;
+  font-family:cursive;
+  
+}
+.custom-table {
+  color: rgb(255, 255, 255); 
+}
+
+.custom-table th,
+.custom-table td {
+  background-color:#1e2025;
+  color: #ffffff;
+}
+.chatpepl{
+  background-color:#1e2025;
+  width: 380px;
+}
+.profile{
+  font-family:cursive;
+  background-color: #1e2025;
+  width: 500px;
+  height: 500px;
+  margin-left: 34%;
+  margin-top: 5%;
+  border-radius: 26px;
+  box-shadow: #5881eb;
+}
+.head5{
+  color:#5881eb
+}
+.userpic{
+  height: 100px;
+  border-radius: 30px;
+}
+.chatspot2{
+  height: 650px;
+  width: 800px;
+  margin-left: 40%;
+  background-color: #1e2025;
+  margin-top: -40%;
+  color: #ffffff;
+border-radius: 75px;
+}
+.msgalert{
+  font-family:cursive;
+  color: #ffffff;
+ 
+}
+.userclick{
+  color: #000000;
+  background-color: #ffffff;
+  border-radius: 2px;
+  width: 200px;
+  height: 50px;
+  margin-left: 5%;
+
+}
+.propic{
+  width: 40px;
+  height: 40px;
+
+
+}
+.paragraph{
+  background-color: #ffffff;
+  height: 18px;
+}
+.keyboard{
+  margin-top: 45%;
+
+}
+.form-control{
+  width: 320px;
+}
+.send{
+  margin-top: -8.5%;
+  margin-left: 39%;
+}
+.lockdp{
+  height: 300px;
+  width: 300px;
+  border-radius: 20px;
+}
+.sent-message {
+  margin-left: 60%;
+  border-radius: 20px;
+  width: 200px;
+  background-color:#EFEFEF; /* Light green background for sent messages */
+  color: #000; /* Black text color for sent messages */
+}
+
+.received-message {
+  border-radius: 20px;
+  width: 200px;
+  background-color: #5881eb;
+  color: #000; /* Black text color for received messages */
+}
+/* Add space below each message */
+.messages-list li {
+  margin-bottom: 10px;
+}
